@@ -1,34 +1,40 @@
 
-
-.class1{
-    color: green; 
-    font-size: 15px;
-}
-
-.class2{
-    color: red; 
-    font-size: 22px; 
-}
-.class3{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 400;
-}
-.caré{
-    background-color: black;
+.div1{
     width : 200px;
     height : 200px;
-    margin-bottom: 10px;;
+    background-color: red;
 }
-.rectangle{
+.div2{
     background-color: yellow;
     width : 200px;
-    height : 100px;
-    margin-bottom: 10px;;
+    height : 200px;
 }
-.cercle{
-    background-color: grey;
+.div3{
+    background-color: green;
     width : 200px;
     height : 200px;
-    margin-bottom: 10px;
-    border-radius: 50%;
+}
+.divmaman1{
+    display:flex;
+    flex-direction: column-reverse;
+}
+.divmaman2{
+    display:flex;
+    flex-direction: row;
+}
+.divmaman3{
+    display:flex;
+    flex-direction: column;
+}
+.divmaman4{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.premierh1{
+    text-align: center;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 25px;
 }
